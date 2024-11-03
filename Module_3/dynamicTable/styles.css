@@ -1,0 +1,44 @@
+/* Body styling */
+h1 {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Table styling */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+/* Header row styling */
+th {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* Data row styling */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Right-align numeric cells */
+td.right {
+  text-align: right;
+}
